@@ -1,0 +1,24 @@
+<!--형 변환
+1. 문자형으로 변환
+alert 메서드는매게변수로 문자형을 받기 떄문에, alert(value)에서 value는 문자형이여야 한다.
+다른 형의 값을 전달받으면 이 값은 문자형으로 자동 변환
+String(value)함수를 호출해 전달받은 값을 문자열로 변환 할 수 도 있다.-->
+
+<script>
+"use strict"	
+// 	let value = true;
+// 	alert(typeof value); // boolean
+
+// 	value = String(value);
+// 	alert(typeof value);
+let str = "123";
+alert(typeof str); // string
+
+let num = Number(str);
+alert(typeof num);
+</script>
+
+<!--숫자형으로 변환
+수학과 관련된 함수와 표현식에서 자동으로 일어남
+숫자형 값을 사용해 무언가를 하려고 하는데 그 값을 문자 기반 폼을 통해
+입력받는 경우엔, 명시적 형 변환이 필수-->
