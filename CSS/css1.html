@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css 적용하면서 배우기</title>
+
+	<style>
+		html{
+			font-size: 16px;
+		}
+
+	span.em {
+		font-size: 2em;
+	}
+	span.rem {
+		font-size: 2rem;
+	}
+
+	.box1 { background-color:blue; width: 100vw; height: 50vh;}
+	.box2 { background-color: yellow; width: 100vw; height: 50vh;}
+
+	</style>
+</head>
+<body>
+
+	<div class="box1">box1</div>
+	<div class="box2">box2</div>
+
+	기본 사이즈 16px로 설정
+	<span class="em">
+		<span class="em">중첩1 <span class="em">중첩2</span></span>
+	</span>
+	<br/>
+	기본 사이즈
+	<span class="rem">
+		<span class="rem">중첩1<span class="rem">중첩2</span></span>
+	</span>
+</body>
+</html>

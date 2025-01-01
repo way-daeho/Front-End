@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="X-UA-Compatible">
 	<style>
 		div {
 			/* 배경색 지정*/
 			background-color: orange;
-			
+
 			width: 360px;
 			padding: 20px;
 			border: 10px solid yellow;
 			margin: 20px;
 		}
+
+	
 	</style>
-	<title>CSS 실습습</title>
+	<title>꾸준한 연습을 하자!</title>
 </head>
+
 <body>
 	<div>프론트 연습을 해서 얼른 실습으로 실력을 키우자!</div>
+	<table>
+		<thead>
+			<tr>
+			<tr>제목 열1</tr>
+			<tr>제목 열2</tr>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>내용 열1</td>
+				<td>내용 열2</td>
+			</tr>
+			<tr>
+				<td>내용 열3</td>
+				<td>내용 열4</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>표의 마지막 열1</td>
+				<td>표의 마지막 열2</td>
+			</tr>
+		</tfoot>
+	</table>
+	<table>
+		<tr>
+			<td colspan="2">열 확장</td>
+		</tr>
+		<tr>
+			<td>열1</td>
+			<td>열2</td>
+		</tr>
+	</table>
+
+	<table>
+		<tr rowspan="2">행 확장
+			<td>열1</td>
+		</tr>
+		<tr>
+			<td>열2</td>
+		</tr>
+	</table>
+	
+	<form action="html1.html" method="post">
+		ID: <input type="text" name="id">
+		PW: <input type="text" name="pw">
+	</form>
 </body>
+
 </html>
